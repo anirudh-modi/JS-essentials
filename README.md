@@ -6,3 +6,9 @@ files explaining a particular feature of JS.
 To start with the repo will be focusing mainly on ES2015, features.
 
 Will be helpful, if you found any issue with what I understood, for any feature.
+
+The content of this repo, is heavily inspired by the some of the great repo and books, mentioned below:
+
+1. https://github.com/getify/You-Dont-Know-JS
+2. https://leanpub.com/understandinges6/read
+3. http://dmitrysoshnikov.com/ecmascript/es6-notes-default-values-of-parameters/
