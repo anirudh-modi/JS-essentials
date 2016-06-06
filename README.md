@@ -7,6 +7,8 @@ To start with the repo will be focusing mainly on ES2015, features.
 
 Will be helpful, if you found any issue with what I understood, for any feature.
 
+To get started you can check individual files in the repo, which represent new features.
+
 The content of this repo, is heavily inspired by the some of the great repo and books, mentioned below:
 
 1. https://github.com/getify/You-Dont-Know-JS
