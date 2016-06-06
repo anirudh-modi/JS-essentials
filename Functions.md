@@ -1,7 +1,7 @@
-## 2. Functions
+## Functions
 With ES6, function paramters declaration and passing values to the parameters of the functions have become more versatile than before. So lets got through the changes how the function behaviour have changed.
 
-#### 2.1 Blocked scoped function declaration
+#### Blocked scoped function declaration
 
 Prior to ES6, the functions were always hosited either in the nearest function scope or the global scope. However, in ES6 the decalation of function have changes a little.
 
@@ -42,7 +42,7 @@ fooFinal2();// Currently in both ES6+ and ES6- it gives an error because
 
 The reason why, above codes fails to execute in ES6 and above is because of the fact scope exist and both the functions fooFinal1, and fooFinal2 can only be accessed within the `if...else` scope.
 
-#### 2.2 Default parameter values
+#### Default parameter values
 
 This enables us to provide default values to a function's parameter. Consider the code below :
 
@@ -173,7 +173,7 @@ And when we use the default parameter in ES6, it behaves in the same way as in `
 
 >The default paramter can be argued as a syntatic sugar, but it certainly reduces the fear of no paramter being passed, that too in a clean way.
 
-#### 2.3 Default Value Expressions
+#### Default Value Expressions
 
 The default paramters are not restricted just till the assigning number or string, a function can also be set as the default value `callback = function(){}`. It can also a previously declared parameter as a default value, we can perform inline operation before assigning default value and even a function call, lets have look into the other variations.
 
