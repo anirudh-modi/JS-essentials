@@ -121,7 +121,9 @@ function add(a=1,b=2)
 add(3);
 ````
 
-It is worth noting that the way arguments object behave can be different in strict and non strict mode of ES5. In non-strict mode, the argument object reflect the changes in the value of the paramters which are being present, however in strict mode any changes to the value of the paramter will not be reflected. It also worth noting that in ES5, if any one the parameters are `undefined`, and we try to change the value of the parameter in both `strict-mode` or `non-strict mode` the arguments object remains unchanged
+It is worth noting that the way arguments object behave can be different in strict and non strict mode of ES5. In non-strict mode, the argument object reflect the changes in the value of the paramters which are being present, however in strict mode any changes to the value of the paramter will not be reflected. 
+
+It also worth noting that in ES5, if any one the parameters are `undefined`, and we try to change the value of the parameter in both `strict-mode` or `non-strict mode` the arguments object remains unchanged, the reason for that is when a function is called then if values are passed to its named parameter, then in `non-strict mode` any changes to the named parameter, will be reflected in the `argument` object also, however, if during the function call, a value is not passed to any of the named parameter, then any change in the value of named parameter is not reflected in its `argument` object.
 
 **Non-strict mode**
 ````javascript
