@@ -14,3 +14,4 @@ The content of this repo, is heavily inspired by the some of the great repo and 
 1. https://github.com/getify/You-Dont-Know-JS
 2. https://leanpub.com/understandinges6/read
 3. http://dmitrysoshnikov.com/ecmascript/es6-notes-default-values-of-parameters/
+4. https://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/
