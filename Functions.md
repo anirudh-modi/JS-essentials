@@ -326,20 +326,22 @@ foo(1,2,3,4);
 
 We can see above the arguments object not only gave the unamed parameters but also the parameters which are already declared, in function declaration. So, to extract the unamed params, a `loop` from 2 untill the length of `arguments`need to be run to extract unamed params. So, just to solve this a `rest` parameter was introduced.
 
-> The `argumentß` is not a real array, it is an object.
+> The `arguments` is not a real array, it is an object.
 
-We can declare a rest parameter by putting `...` before any named parameter.
+We can declare a rest parameter by putting `...` before any named parameter, and the parameter will extract the extra values which are passed during the function call [excluding the values for the parameter which are already defined in function declaration], and the extra values are assigned to the rest parameter in an array. 
 
 ````javascript
 function foo(a,b,...restOfParams)
 {
-    console.log(restOfParams);  // [3,4]
-    console.log(arguments);     // [1,2,3,4]
+    console.log(restOfParams);  // [3,4] 
+    console.log(arguments);     // [1,2,3,4] 
 }
 foo(1,2,3,4);
 ````
 
-The rest parameter not only solves the problem with `arguments` object, it also leaves the `argumentß` object unaltered, and return a real array. Declaring a  `rest` parameter doesn't change the length of a function (which returns the number of parameters declared in a function).
+In the above code, since `a` and `b` is already decalred as parametere during function declaration, the values `1` and `2` and assigned to `a` and `b` respectively, and the extra values `3,4` are extracted and assigned as `rest` parameter.
+
+The rest parameter not only solves the problem with `arguments` object, it also leaves the `arguments` object unaltered, and return a real array. Declaring a  `rest` parameter doesn't change the length of a function (which returns the number of parameters declared in a function).
 
 ````javascript
 function foo(a){};
