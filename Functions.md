@@ -55,9 +55,7 @@ add(1,2); // 3
 add(1); // gives a NaN
 ````
 
-Now often scenarios arise where you might forget to a second value to the function, in which the function will start retruning `NaN` if the second value is not passed or the first parameter is not passed or `undefined` is passed as a value. 
-
-> TODO : Show how to skip the first parameter while calling a function using `apply` 
+Now often scenarios arise where you might forget to a second value to the function, in which the function will start retruning `NaN` if the second value is not passed or the first parameter is not passed or `undefined` is passed as a value.
 
 ````javascript
 function add(firstValue,secondValue)
