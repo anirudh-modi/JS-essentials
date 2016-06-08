@@ -369,3 +369,19 @@ function restFunc(a,...restParam) {
 }
 restFunc(1,2,3);
 ````
+
+**Restrictions of rest parameter**
+
+One of the main restriction of `rest` parameter is that, if the `rest` parameter is declared as param for a `function` then, there can't be any other parameter declaration after it.
+
+````javascript
+function foo(a,...restParam,c) // Syntax syntax
+{
+
+}
+
+function foo(a,...restParam,...resParam2) // Syntax error
+{
+
+}
+````
