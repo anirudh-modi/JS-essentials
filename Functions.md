@@ -290,7 +290,8 @@ because of the three scopes, when we execute the `function y` it searches for `x
 If the try to do the same code without using default parameter values, it will not create a parameter scope, lets how the above code makes a difference
 ````javascript
 var x  = 'outer';
-function foo(x,y){
+function foo(x,y) {
+
     if(typeof y =='undefined')
     {
         y = function()
@@ -301,6 +302,7 @@ function foo(x,y){
 
     var x = 'function';
     y();
+    
     console.log(x); //param scope
     console.log(arguments[0]); // undefined
     console.log(arguments[1]); // undefined
@@ -342,8 +344,10 @@ The rest parameter not only solves the problem with `arguments` object, it also 
 ````javascript
 function foo(a){};
 foo.length()        // 1
+
 function foo(a,...rest){};
 foo.length()        // 1
+
 function foo(...res){};
 foo.length()        // 0
 ````
@@ -352,9 +356,12 @@ The `rest` parameter doesn't have any effect on the `arguments` object, which me
 
 ````javascript
 function restFunc(a,...restParam) {
+
     console.log(arguments);     // 1,2,3
     console.log(restParam);     // 1,2,3
+    
     restParam[0] = 4;       
+    
     console.log(arguments);     // 1,2,3
     console.log(restParam);     // 1,4,3
 }
