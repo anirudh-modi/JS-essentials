@@ -376,12 +376,8 @@ One of the main restriction of `rest` parameter is that, if the `rest` parameter
 
 ````javascript
 function foo(a,...restParam,c) // Syntax syntax
-{
-
-}
+{....}
 
 function foo(a,...restParam,...resParam2) // Syntax error
-{
-
-}
+{....}
 ````
