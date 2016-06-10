@@ -15,7 +15,7 @@ and an awesome [talk](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.
 To get started you can open the link below and start reading,
 
 1. [`let` and `const` decalration](https://github.com/anirudh-modi/JS-essentials/blob/master/let%20and%20const.md)
-2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions.md)
+2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Functions.md)
 
 
 ### Contribution
