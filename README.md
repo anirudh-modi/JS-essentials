@@ -10,7 +10,7 @@ which have achieved what I am trying to do, and that too by way way more experic
 
 > Teaching is nature's way of letting you know how sloppy your understanding is - [Ashley williams](https://github.com/ashleygwilliams)
 
-So, this motivates me to learn more, and through you I can learn more.
+So, this motivates me to learn more, and through you I can learn more, and If I can teach you even a single new code, My purpose of this repo is served. So, give it a try and enjoy.😃
 
 To get started you can open the link below and start reading,
 
@@ -24,9 +24,9 @@ To be frank any kind of contribution is most welcome, Since it is in a start pha
 
 * Don't shy away from creating [issues](https://github.com/anirudh-modi/JS-essentials/issues), if you found a bug with the code.
 * If there is something you need more clarification feel free to file raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues).
-* Found a spelling mistake? Raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues), with proper details, because after all I am a human. PS: I make alot of typos..
-* Found a grammar error, you know what needs to be done ;)
-* Have a suggestion about anything, raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues) 
+* Found a spelling mistake? Raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues), with proper details, because after all I am a human. PS: I make alot of typos.. 😐
+* Found a grammar error, you know what needs to be done 😋
+* Have a suggestion about anything, raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues).
 
 
 ### Credits
