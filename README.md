@@ -5,9 +5,8 @@ files explaining a particular feature of JS.
 To start with the repo will be focusing mainly on ES2015 can also be referred as ES6 features.
 
 ### Not another repo!
-
 You might be thinking, oh no, not another lame repo! Well to be frank, I already know there are hundreds of repo,
-which have achieved what I am trying to do, and that too by way way more expericed developers, but I would like block a intresting quote by an awesome developer in JS communtiy.
+which have achieved what I am trying to do, and that too by way way more expericed developers, but I would like block a interesting quote by one of an awesome developer in JS communtiy.
 
 > Teaching is nature's way of letting you know how sloppy your understanding is - [Ashley williams](https://github.com/ashleygwilliams)
 
@@ -20,7 +19,6 @@ To get started you can open the link below and start reading,
 
 
 ### Contribution
-
 How can you contribute? 
 To be frank any kind of contribution is most welcome, Since it is in a start phase, you can contribute as much as you like.
 
@@ -32,7 +30,6 @@ To be frank any kind of contribution is most welcome, Since it is in a start pha
 
 
 ### Credits
-
 Even though I write this repo, by no means, I can forget the people/blogs/books which helped me creating this repo, so naturally, the content of this repo, is heavily inspired by the some of the great repo and books, mentioned below:
 
 1. https://github.com/getify/You-Dont-Know-JS
