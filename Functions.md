@@ -469,7 +469,8 @@ sum(...[1,2,3,4,5]);    //15
 ````
 
 **In arrays**
-The `spread` operator is not ust retricted to spreading values of an iterable during function call, it can be used within array also, meaning reconstructing a new array with an existing array. 
+
+The `spread` operator is not just retricted to spreading values of an iterable during function call, it can be used within array also, meaning reconstructing a new array with an existing array. 
 
 Lets, have a look on this can be acheived in ES5.
 
@@ -546,6 +547,7 @@ foo(12,2,3,4);
 ````
 
 **What do you mean by iterables?**
+
 Now, throught the explaination I mentioned that the `spread` operator can be used over an **iterable**. So, what does this iterable means?
 
 `Iterables` are objects which have the property `Symbol.iterator` as a method, Built in `iterable` in Js are `Array`,`String`,`Set`,`TypedArray`,`arguments` and so on. We can create our `iterable` object.
