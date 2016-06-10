@@ -22,7 +22,7 @@ To get started you can open the link below and start reading,
 How can you contribute? 
 To be frank any kind of contribution is most welcome, Since it is in a start phase, you can contribute as much as you like.
 
-* Don't shy away from creating [issues](https://github.com/anirudh-modi/JS-essentials/issues), if you found a bug with the code.
+* Don't shy away from creating [issues](https://github.com/anirudh-modi/JS-essentials/issues), if you found a bug with the code, because I am after all learning.
 * If there is something you need more clarification feel free to file raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues).
 * Found a spelling mistake? Raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues), with details, because after all I am a human. PS: I make alot of typos 😐
 * Found a grammar error, you know [what needs to be done](https://github.com/anirudh-modi/JS-essentials/issues) 😋
