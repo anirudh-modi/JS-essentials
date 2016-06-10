@@ -45,7 +45,7 @@ Even though I write this repo, by no means, I can forget the people/blogs/books 
 * https://leanpub.com/understandinges6/read
 * http://exploringjs.com/es6/
 
-**Awesome developers**
+**Awesome people**
 * [Kyle simpson](https://github.com/getify) his blogs, books has been like a bible for JS community, have helped me in falling in love with JS.
 * [Kent C. Dodds](https://github.com/kentcdodds), his awesome [videos](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.be) has motivated me alot in taking a step to contribute to the communtiy and learn better.
 * [Ashley williams](https://github.com/ashleygwilliams) for the awesome quote in the [Javascript air podcast](https://javascriptair.com/episodes/2015-12-16/), and her talks.
