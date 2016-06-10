@@ -10,7 +10,7 @@ which have achieved what I am trying to do, and that too by way way more experic
 
 > Teaching is nature's way of letting you know how sloppy your understanding is - [Ashley williams](https://github.com/ashleygwilliams)
 
-and an awesome [talk](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.be) by Kent C. Dodds, motivates me to learn more, and through you I can learn more, and If I can teach you even a single new code, My purpose of this repo is served. So, give it a try and enjoy.😃
+and an awesome [talk](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.be) by [Kent C. Dodds](https://github.com/kentcdodds), motivates me to learn more, and through you I can learn more, and If I can teach you even a single new code, My purpose of this repo is served. So, give it a try and enjoy.😃
 
 To get started you can open the link below and start reading,
 
