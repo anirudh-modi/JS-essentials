@@ -36,5 +36,6 @@ Even though I write this repo, by no means, I can forget the people/blogs/books 
 2. https://leanpub.com/understandinges6/read
 3. http://dmitrysoshnikov.com/ecmascript/es6-notes-default-values-of-parameters/
 4. https://javascriptweblog.wordpress.com/2011/01/18/javascripts-arguments-object-and-beyond/
+5. http://exploringjs.com/es6/
 5. [Kent C. Dodds](https://github.com/kentcdodds), his awesome [videos](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.be) has motivated me alot in taking a step to contribute to the communtiy and learn better.
 6. [Ashley williams](https://github.com/ashleygwilliams) for the awesome quote in the [Javascript air podcast](https://javascriptair.com/episodes/2015-12-16/), and of course her talks.
