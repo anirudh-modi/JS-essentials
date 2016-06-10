@@ -1,6 +1,6 @@
 # JS-essentials
 
-This repo is to keep a track of all the thigns being learned by me in JS, it contains link,
+This repo is to keep a track of all the things being learned by me in JS, it contains link,
 files explaining a particular feature of JS.
 
 To start with the repo will be focusing mainly on ES2015 can also be referred as ES6 features.
@@ -11,7 +11,7 @@ To get started you can open the link below and start reading,
 2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions.md)
 
 
-##Contribution
+### Contribution
 
 How can you contribute? 
 To be frank any kind of contribution is most welcome, Since it is in a start phase, you can contribute as much as you like.
@@ -23,7 +23,7 @@ To be frank any kind of contribution is most welcome, Since it is in a start pha
 * Have a suggestion about anything, raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues) 
 
 
-## Credits
+### Credits
 
 Even though I write this repo, by no means, I can forget the people/blogs/books which helped me creating this repo, so naturally, the content of this repo, is heavily inspired by the some of the great repo and books, mentioned below:
 
