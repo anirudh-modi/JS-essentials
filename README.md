@@ -41,7 +41,7 @@ Even though I write this repo, by no means, I can forget the people/blogs/books 
 **Github Repo**
 * https://github.com/getify/You-Dont-Know-JS
 
-**Links to e-books** 
+**Links to online reads** 
 * https://leanpub.com/understandinges6/read
 * http://exploringjs.com/es6/
 
