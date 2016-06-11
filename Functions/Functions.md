@@ -105,8 +105,8 @@ add(1,0);                   // 1
 add(undefined,undefined);   // 4 takes the default value
 ````
 
-##### **Default pramater effecting arguments object**
-The default paramters changes how the arguments object behave, one might think that if a paramter is not passed to the function and with the default value, the arguments object will give the default value, however, this is not true,
+##### **Default parameter effecting arguments object**
+The default parameters changes how the arguments object behave, one might think that if a parameter is not passed to the function and with the default value, the arguments object will give the default value, however, this is not true,
 the argument object represents the set of values which where passed to a function, which doesn't get overridden by the default value if no value was passed.
 
 ````javascript
@@ -119,7 +119,7 @@ function add(a=1,b=2)
 add(3);
 ````
 
-It is worth noting that the way arguments object behave can be different in strict and non strict mode of ES5. In non-strict mode, the argument object reflect the changes in the value of the paramters which are being present, however in strict mode any changes to the value of the paramter will not be reflected. 
+It is worth noting that the way arguments object behave can be different in strict and non strict mode of ES5. In non-strict mode, the argument object reflect the changes in the value of the parameters which are being present, however in strict mode any changes to the value of the paramter will not be reflected. 
 
 It also worth noting that in ES5, if any one the parameters are `undefined`, and we try to change the value of the parameter in both `strict-mode` or `non-strict mode` the arguments object remains unchanged, the reason for that is when a function is called then if values are passed to its named parameter, then in `non-strict mode` any changes to the named parameter, will be reflected in the `argument` object also, however, if during the function call, a value is not passed to any of the named parameter, then any change in the value of named parameter is not reflected in its `argument` object.
 
