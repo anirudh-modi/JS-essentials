@@ -3,7 +3,7 @@ With ES6, function parameters declaration and passing values to the parameters o
 
 ## Blocked scoped function declaration
 
-Prior to ES6, the functions were always hosited either in the nearest function scope or the global scope. However, in ES6 the decalation of function have changes a little.
+Prior to ES6, the functions were always hoisted either in the nearest function scope or the global scope. However, in ES6 the declaration of function have changes a little.
 
 ````javascript
 {
