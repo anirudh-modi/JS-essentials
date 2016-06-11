@@ -1,5 +1,5 @@
 # Functions
-With ES6, function paramters declaration and passing values to the parameters of the functions have become more versatile than before. So lets got through the changes how the function behaviour have changed.
+With ES6, function parameters declaration and passing values to the parameters of the functions have become more versatile than before. So lets got through the changes how the function behaviour have changed.
 
 ## Blocked scoped function declaration
 
