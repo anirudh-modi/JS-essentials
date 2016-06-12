@@ -39,3 +39,7 @@ fooFinal2();// Currently in both ES6+ and ES6- it gives an error because
 ````
 
 The reason why, above codes fails to execute in ES6 and above is because of the fact scope exist and both the functions fooFinal1, and fooFinal2 can only be accessed within the `if...else` scope.
+
+****
+
+**Next Chapter : [Default parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Default%20parameter.md)**
