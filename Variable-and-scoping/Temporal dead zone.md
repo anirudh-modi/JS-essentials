@@ -30,3 +30,5 @@ if(true)
 ````
 
 The reason why accessing the constant a gives a refernce error is because a lies within the global scope, and hence when engine looks up and declares a in TDZ, however, the variable b is not declared within the global scope and hence it doesnot lie in the TDZ, it is defined within the block scope and hence accessing the variable b outside the block, doesnot give a Reference error, but accessing the variable b within the block scope of `if` before its declaration will give a Reference error.
+
+**Previous Chapter : [`const` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/const.md)**
