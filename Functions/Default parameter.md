@@ -267,3 +267,9 @@ foo();
 ````
 
 This is because the moment we remove the default parameter scope, only two scope exist, the global scope and the foo scope, and becuase of variable hoisting, the variable `x` declared within the foo function is hoisted at the top, of the function foo scope with its value `undefined`, and a function `y` is also hoisted at scope of the foo, and when the function `y` is executed, it is executed within the foo scope environment and it changes the variable within the foo scope, and this also clarifies the reason why arguments[0] is never changed.
+
+****
+
+**Previous Chapter : [Blocked scoped functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Block%20scoped%20functions.md)**
+
+**Next Chapter : [Rest parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Rest%20parameter.md)**
