@@ -1,4 +1,4 @@
-## Rest paramaeter
+## Rest parameter
 
 Prior to ES6, the way to access extra parameter or unamed parameter passed to a function, was through the `arguments` object, working with the `arguments` object was not an issue, you can loop through the argument object and extract the extra values being passed to a function, however, one problem with that approach was the `arguments` object always returned the entire set of parameters, even the named parameters, lets look what it meant.
 
@@ -67,3 +67,9 @@ function foo(a,...restParam,c) // Syntax syntax
 function foo(a,...restParam,...resParam2) // Syntax error
 {....}
 ````
+
+****
+
+** Previous Chapter : [Default parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Default%20parameter.md)**
+
+** Next Chapter : [Spread operator](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Spread%20operator.md)**
