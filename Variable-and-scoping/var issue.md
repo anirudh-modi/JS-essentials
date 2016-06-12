@@ -85,3 +85,5 @@ funcArray[2](); //2
 
 
 But, with ES6 we have `let` and `const` which enables us to create block scope. Lets look into both the variable.
+
+**Next Chapter : [`let` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/let.md)**
