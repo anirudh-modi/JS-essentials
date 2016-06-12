@@ -33,3 +33,5 @@ The reason why accessing the constant a gives a refernce error is because a lies
 
 - - -
 **Previous Chapter : [`const` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/const.md)**
+
+**[Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Functions.md)**
