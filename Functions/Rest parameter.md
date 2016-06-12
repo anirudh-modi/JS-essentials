@@ -70,6 +70,6 @@ function foo(a,...restParam,...resParam2) // Syntax error
 
 ****
 
-** Previous Chapter : [Default parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Default%20parameter.md)**
+**Previous Chapter : [Default parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Default%20parameter.md)**
 
-** Next Chapter : [Spread operator](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Spread%20operator.md)**
+**Next Chapter : [Spread operator](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Spread%20operator.md)**
