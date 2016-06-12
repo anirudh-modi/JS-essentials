@@ -179,3 +179,7 @@ console.log(splittedChars);     // ["b", "l", "u", "e", " ", "s", "k", "y"]
                                 // this works because the string is an
                                 // iterable
 ````
+
+****
+
+**Previous Chapter : [Rest parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Rest%20parameter.md)**
