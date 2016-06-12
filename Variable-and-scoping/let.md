@@ -94,6 +94,8 @@ resultArr[2](); //2
 
 The `let` also works the same way with `for..in` and `for..of` loops.
 
+* * *
+
 **Previous Chapter    : [The problem with `var`](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/var%20issue.md)**
 
 **Next Chapter        : [`const` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/const.md)**
