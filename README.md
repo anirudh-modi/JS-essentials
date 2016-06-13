@@ -17,6 +17,7 @@ To get started you can open the link below and start reading,
 1. [Variable declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/main.md)
 2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Functions.md)
 
+> The repo contains alot of examples, and, if you are here for learning purpose, do make sure to try the examples out, without that nothing fruitfull can come to you.
 
 ### Contribution
 How can you contribute? 
@@ -26,7 +27,7 @@ To be frank any kind of contribution is most welcome, Since it is in a start pha
 * If there is something you need more clarification feel free to file raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues).
 * Found a spelling mistake? Raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues), with details, because after all I am a human. PS: I make alot of typos 😐
 * Found a grammar error, you know [what needs to be done](https://github.com/anirudh-modi/JS-essentials/issues) 😋
-* Have a suggestion about anything, raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues).
+* Have a suggestion about anything, raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues), because constru tive criticism are always welcome.
 
 
 ### Credits
