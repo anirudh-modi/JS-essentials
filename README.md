@@ -2,7 +2,8 @@
 
 This repo is to keep a track of all the things being learned by me in JS, it contains link,
 files explaining a particular feature of JS.
-To start with the repo will be focusing mainly on ES2015 can also be referred as ES6 features.
+
+> **To start with the repo will be focusing mainly on ES2015 can also be referred as ES6 features.**
 
 ### Not another repo!
 You might be thinking, oh no, not another lame repo! Well to be frank, I already know there are hundreds of repo,
