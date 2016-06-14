@@ -12,7 +12,7 @@ With ES6, apart from the regular function expression came a new function express
 
 ### Syntax
 
-The syntax to declare an arrow function is list of variables on the left hand side with or without parantheses `()`, followed by the arrow sign `=>` followed by the body of the function with or without curly braces `{}`. Let's cover each decalration step by step, and how it can look in prior to ES6.
+The syntax to declare an arrow function is list of variables on the left hand side with or without parantheses `()`, followed by the arrow sign `=>` followed by the body of the function with or without curly braces `{}`. There can't be any line break in between parameter declaration and the arrow sign. Let's cover each decalration step by step, and how it can look in prior to ES6.
 
 > parameters `=>` body of function
 
@@ -58,6 +58,17 @@ var foo4 = a => return a*2;         // braces is optional for single line code
 var foo5 = a => {                   // braces is must for multiline
     var x = 1;
     return a = x+1;
+}
+
+var foo6 = a                        // Syntax error
+=> a * 2;
+
+var foo7 = a                        // Syntax error
+=> { return a * 2}
+
+var foo8 = a =>                     // Ok
+{
+    return a + 4;
 }
 ````
 
