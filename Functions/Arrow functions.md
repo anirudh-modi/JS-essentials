@@ -14,6 +14,8 @@ With ES6, apart from the regular function expression came a new function express
 
 The syntax to declare an arrow function is list of variables on the left hand side with or without parantheses `()`, followed by the arrow sign `=>` followed by the body of the function with or without curly braces `{}`. Let's cover each decalration step by step, and how it can look in prior to ES6.
 
+> parameters of function => body of function
+
 ##### Parameter decalration
 
 During, the parameter declaration for arrow functions, there can be 0 or more variables. If there are more two parameter in function declaration, then the variables need to be enclosed within parantheses, if there is a single parameter then the parantheses can be omitted, and if no variables are decalared, then an empty parantheses need to be used `()`.
