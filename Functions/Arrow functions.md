@@ -10,6 +10,18 @@ With ES6, apart from the regular function expression came a new function express
 6. Their cant be any duplicate name in the parameters, during the declaration of the arrow function.
 7. The value of `this` cannot be changed, during the execution of the arrow function or within the code.
 
+##### CONTENTS
+1. [Syntax](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Arrow%20functions.md#syntax)
+
+    1.1 [Parameter decalaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Arrow%20functions.md#parameter-decalration)
+    
+    1.2 [Body decalaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Arrow%20functions.md#body-declaration)
+    
+    1.3 [Return in arrow functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Arrow%20functions.md#return-in-arrow-function)
+    
+
+
+
 ### Syntax
 
 The syntax to declare an arrow function is list of variables on the left hand side with or without parantheses `()`, followed by the arrow sign `=>` followed by the body of the function with or without curly braces `{}`. Let's cover each decalration step by step, and how it can look in prior to ES6.
