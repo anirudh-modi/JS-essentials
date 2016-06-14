@@ -14,7 +14,7 @@ With ES6, apart from the regular function expression came a new function express
 
 The syntax to declare an arrow function is list of variables on the left hand side with or without parantheses `()`, followed by the arrow sign `=>` followed by the body of the function with or without curly braces `{}`. Let's cover each decalration step by step, and how it can look in prior to ES6.
 
-**Parameter decalration**
+##### Parameter decalration
 
 During, the parameter declaration for arrow functions, there can be 0 or more variables. If there are more two parameter in function declaration, then the variables need to be enclosed within parantheses, if there is a single parameter then the parantheses can be omitted, and if no variables are decalared, then an empty parantheses need to be used `()`.
 
@@ -44,7 +44,7 @@ var foo3 = function(a,b) {
 }
 ````
 
-**Body declaration**
+##### Body declaration
 
 The body of the arrow needs to *enclosed in a curly brace if there more than one line of code execution*, and if the there is only a single line of code execution, then the curly braces can be omitted. Let's take the funciton `foo2`from previous examples and modify it.
 
@@ -59,7 +59,7 @@ var foo5 = a => {                   // braces is must for multiline
 }
 ````
 
-**Return in arrow function**
+##### Return in arrow function
 
 You must have noticed that a lot of `return` are statements are being used in arrow functions examples. Now, saying that it doesnot mean that writing the `return` is neccessary, however, in the propsoal of ES6 for arrow function, it is mentioned that
 
