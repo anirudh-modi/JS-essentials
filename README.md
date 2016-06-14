@@ -46,6 +46,8 @@ Even though I write this repo, by no means, I can forget the people/blogs/books 
 **Links to online reads** 
 * https://leanpub.com/understandinges6/read
 * http://exploringjs.com/es6/
+* http://stackoverflow.com/questions/28889450/when-should-i-use-return-in-es6-arrow-functions
+* https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 
 **Awesome people**
 * [Kyle simpson](https://github.com/getify) his blogs, books has been like a bible for JS community, have helped me in falling in love with JS.
