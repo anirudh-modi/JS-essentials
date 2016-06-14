@@ -183,3 +183,5 @@ console.log(splittedChars);     // ["b", "l", "u", "e", " ", "s", "k", "y"]
 ****
 
 **Previous Chapter : [Rest parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Rest%20parameter.md)**
+
+**Next Chapter : [Arrow functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Arrow%20functions.md)**
