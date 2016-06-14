@@ -18,7 +18,7 @@ The syntax to declare an arrow function is list of variables on the left hand si
 
 ##### Parameter decalration
 
-During, the parameter declaration for arrow functions, there can be 0 or more variables. If there are more two parameter in function declaration, then the variables need to be enclosed within parantheses, if there is a single parameter then the parantheses can be omitted, and if no variables are decalared, then an empty parantheses need to be used `()`.
+During, the parameter declaration for arrow functions, there can be 0 or more variables. If there are more two parameter in function declaration, then the variables need to be enclosed within parantheses `()`, if there is a single parameter then the parantheses `()` can be omitted, and if no variables are decalared, then an empty parantheses need to be used `()`.
 
 Let's look at the different ways of decalring parameter of arrow function.
 
