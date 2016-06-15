@@ -117,3 +117,21 @@ An implict `return` will only be used if there is no block, which means if curly
 an assingment never `return` any value, because of which the evaluation returns `undefined`, however, if we assign a value to variable already decalred, the value assinged to the variable is used as the return value, and for the same reason `function` also `return` `undefined`. 
 
 **Note** : Now while evaluation, there can be some gotchas, to know more detail you can look into the following [github issue](https://github.com/kentcdodds/ama/issues/145), and [stackoverflow question](http://stackoverflow.com/questions/22844840/why-does-javascript-variable-declaration-at-console-results-in-undefined-being?lq=1).
+
+###### How to call an arrow function
+
+There are a couple of methods by which we call these function, since, the arrow function are anonymous functions, to call them 
+* We can either assign the arrow function to a named variable, which can be later used to invoke.
+````javascript
+var sum = (a,b) => a+b;
+sum(1,2);               // 3
+````
+* We can also use it as IIFE (Immediately Invoked Function Expression), which will is executing right when it declared, and can be referred ot as IIAF (Immediately Invoked Arrow Function)
+````javascript
+((a,b) => a+b)(1,2);    // 3
+````
+* We can also pass it as a parameter to the function, which later on goes to invoke it, when required.
+````javascript
+setTimeout(() => {console.log(1)},100);
+````
+* There are three other ways which can used to call the arrow functions which is the `call`, `apply` and `bind`. But, to dig into that we need to first swim through 🏊🏼 the ocean of `this`, and understand how `this` behaves and how different it is in the arrow functions from the regular functions.
