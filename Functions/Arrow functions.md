@@ -118,7 +118,7 @@ an assingment never `return` any value, because of which the evaluation returns 
 
 **Note** : Now while evaluation, there can be some gotchas, to know more detail you can look into the following [github issue](https://github.com/kentcdodds/ama/issues/145), and [stackoverflow question](http://stackoverflow.com/questions/22844840/why-does-javascript-variable-declaration-at-console-results-in-undefined-being?lq=1).
 
-###### How to call an arrow function
+##### How to call an arrow function
 
 There are a couple of methods by which we call these function, since, the arrow function are anonymous functions, to call them 
 * We can either assign the arrow function to a named variable, which can be later used to invoke.
