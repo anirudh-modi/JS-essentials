@@ -39,7 +39,7 @@ const x = obj[ .. ]
 
 ****
 
-**Previous Chapter : [`let` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/let.md)**
+**Previous Chapter : [`let` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/let.md)**
 
 
-**Next Chapter : [Temporal Dead Zone](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/Temporal%20dead%20zone.md)**
+**Next Chapter : [Temporal Dead Zone](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/Temporal%20dead%20zone.md)**
