@@ -42,4 +42,4 @@ The reason why, above codes fails to execute in ES6 and above is because of the 
 
 ****
 
-**Next Chapter : [Default parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Default%20parameter.md)**
+**Next Chapter : [Default parameter](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Default%20parameter.md)**
