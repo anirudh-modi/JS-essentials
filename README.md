@@ -13,6 +13,7 @@ which have achieved what I am trying to do, and that too by way way more experic
 
 and an awesome [talk](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.be) by [Kent C. Dodds](https://github.com/kentcdodds), motivates me to learn more, and through you I can learn more, and If I can teach you even a single new code, My purpose of this repo is served. So, give it a try and enjoy.😃
 
+### Getting started
 To get started you can open the link below and start reading,
 
 1. [Variable declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/main.md)
