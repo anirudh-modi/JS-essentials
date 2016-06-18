@@ -15,8 +15,8 @@ and an awesome [talk](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.
 
 To get started you can open the link below and start reading,
 
-1. [Variable declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/main.md)
-2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/Functions/Functions.md)
+1. [Variable declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/main.md)
+2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Functions.md)
 
 > The repo contains alot of examples, and, if you are here for learning purpose, do make sure to try the examples out, without that nothing fruitfull can come to you.
 
