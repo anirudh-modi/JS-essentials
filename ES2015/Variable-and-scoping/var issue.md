@@ -181,4 +181,4 @@ But, with ES6 we have `let` and `const` which enables us to create block scope. 
 
 * * *
 
-**Next Chapter : [`let` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/Variable-and-scoping/let.md)**
+**Next Chapter : [`let` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/let.md)**
