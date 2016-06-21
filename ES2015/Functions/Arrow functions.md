@@ -139,7 +139,7 @@ setTimeout(() => {console.log(1)},100);
 
 #####  How `this` is different for arrow functions
 
-> Note : An update for `this` will come soon.
+> Note : An update for `this` will come soon, till then before proceeding I request you to learn `this` and return, for better understanding.
 
 For arrow functions `this` does not exist, which means **unlike other regular function, the arrow functions does not have their own `this` binding**, instead, it starts looking up the scope of itself to find a `this`, and wherever the scope has a `this` binding of its own, that `this` is used as context when `this` is used within an arrow function.
 
