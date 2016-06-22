@@ -356,3 +356,39 @@ var a = 'global!!!';
 obj.foo.call(obj);              // global!!!
 ````
 
+##### Other lexically binded variable for arrow functions
+
+Apart from `this`, variables like `arguments`, `super` and `new.target` are all lexically binded which means that they will look up their scope to determine find the variable value.
+
+````javascript
+function foo(foo1,foo2,foo3)
+{
+    return (arrow1,arrow2)=>{
+        console.log(arguments);         // [1,2,3]
+    }
+}
+
+foo(1,2,3)(4,5);
+````
+
+Even though, we the arrow function is accepting parameters, yet, when `arguments` are console, it gives the `arguments` passed to the `foo`, this is because arrow function does not have their own `arguments` object, it lexically lookup to find an `arguments` object. So you must be wondering, how can we handle the extra parameter which are being sent to the arrow function. We can use `rest` parameter!!!
+
+````javascript
+function foo(foo1,foo2,foo3,...restOfFoos)
+{
+    console.log(restOfFoos);                // [0]
+
+    return (arrow1,arrow2,...restOfArrows)=>{
+        console.log(restOfArrows);         // [6,7]
+    }
+}
+
+foo(1,2,3,0)(4,5,6,7);
+````
+
+Since, arrow functions does not have a `[[Construct]]` and `prototype` property of their own, it is not possible to use the `new` operator in front of an arrow function.
+
+````javascript
+var a = () => {console.log('Hey!!')}
+var b = new a();                        //Type error
+````
