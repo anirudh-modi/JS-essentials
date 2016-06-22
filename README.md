@@ -14,12 +14,13 @@ which have achieved what I am trying to do, and that too by way way more experic
 and an awesome [talk](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.be) by [Kent C. Dodds](https://github.com/kentcdodds), motivates me to learn more, and through you I can learn more, and If I can teach you even a single new code, My purpose of this repo is served. So, give it a try and enjoy.😃
 
 ### Getting started
-To get started you can open the link below and start reading,
 
-1. [Variable declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/main.md)
-2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Functions.md)
+The repo is divided into two sections, you can click either of the link to start reading :
 
-> The repo contains alot of examples, and, if you are here for learning purpose, do make sure to try the examples out, without that nothing fruitfull can come to you.
+1. [Features explaintion of ES2016](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/main.md)
+2. [Js materials](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/main.md)
+
+Hope, that you find the reading enjoyable and useful. 
 
 ### Contribution
 How can you contribute? 
@@ -30,6 +31,7 @@ To be frank any kind of contribution is most welcome, Since it is in a start pha
 * Found a spelling mistake? Raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues), with details, because after all I am a human. PS: I make alot of typos 😐
 * Found a grammar error, you know [what needs to be done](https://github.com/anirudh-modi/JS-essentials/issues) 😋
 * Have a suggestion about anything, raise an [issue](https://github.com/anirudh-modi/JS-essentials/issues), because constructive criticism are always welcome.
+* Have a cool link to something intresting, put it as an issue.
 
 
 ### Credits
