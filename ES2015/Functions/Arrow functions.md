@@ -340,7 +340,7 @@ So, Ask yourself two questions!! What should be the output???? And how many `thi
 
 The output will be `func`, and there is only one `this` which is the `this` of the function `foo` which is binded to itself, and for every arrow function, whenever a `this` is referred, it will look up the scope and it will finally land into `this` of function `foo`.
 
-**Does `call`, `apply` and `bind` effect arrow function's this?**
+##### Does `call`, `apply` and `bind` effect arrow function's this?
 
 Well *this* is kind of a useless question, because all the three methods hard binds `this` value of a function to the context specified as the parameter to those method, but, arrow functions does not have their own `this`, so what will these methods bind the context to????
 Nothing!! 😛, which means calling arrow functions using `call` ,`apply` or `bind` can produce no effect. Let's look at the previous example, on how indifferent it could be.
