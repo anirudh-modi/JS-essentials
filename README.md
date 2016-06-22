@@ -17,7 +17,7 @@ and an awesome [talk](https://www.youtube.com/watch?v=HjgZQeMrw6c&feature=youtu.
 
 The repo is divided into two sections, you can click either of the link to start reading :
 
-1. [Features explaintion of ES2016](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/main.md)
+1. [Learning ES2015](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/main.md)
 2. [Js materials](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/main.md)
 
 Hope, that you find the reading enjoyable and useful. 
