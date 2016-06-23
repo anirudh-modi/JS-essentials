@@ -4,5 +4,5 @@ With ES6, apart from `var`, we get two new technique for declaring a variable, t
 
 * [Problem with `var`](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/var%20issue.md)
 * [`let` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/let.md)
-* [`cosnt` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/const.md)
+* [`const` declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/const.md)
 * [Temporal dead zone](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/Temporal%20dead%20zone.md)
