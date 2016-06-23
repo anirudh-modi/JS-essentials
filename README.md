@@ -43,6 +43,7 @@ Even though I write this repo, by no means, I can forget the people/blogs/books 
 * https://ponyfoo.com/articles/es6-spread-and-butter-in-depth
 * http://dmitrysoshnikov.com/ecmascript/es6-notes-default-values-of-parameters/
 * https://blog.getify.com/arrow-this/
+* http://jsrocks.org/2015/01/temporal-dead-zone-tdz-demystified/
 
 **Github Repo**
 * https://github.com/getify/You-Dont-Know-JS
