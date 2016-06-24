@@ -4,3 +4,4 @@ Below, you can find collection of awesome github repos, podcasts, videos, online
 
 * [Github repo](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/github%20repos.md)
 * [Podcasts](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/podcasts.md)
+* [Blogs](https://github.com/anirudh-modi/JS-essentials/tree/master/Js-materials)
