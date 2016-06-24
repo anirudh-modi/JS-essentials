@@ -392,3 +392,6 @@ Since, arrow functions does not have a `[[Construct]]` and `prototype` property 
 var a = () => {console.log('Hey!!')}
 var b = new a();                        //Type error
 ````
+
+****
+**Previous Chapter: [Spread operators](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Spread%20operator.md)**
