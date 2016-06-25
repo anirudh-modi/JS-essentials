@@ -1,4 +1,4 @@
-#### Learning ES 2015
+# Learning ES 2015
 
 1. [Variable declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/main.md)
 2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Functions.md)
