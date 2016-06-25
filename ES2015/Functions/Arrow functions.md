@@ -113,6 +113,7 @@ An implict `return` will only be used if there is no block, which means if curly
 (a => ({id:1}))();
 ````
 
+###### Why `undefined`?
 > If you are executing these codes in **dev tool console**, you might be wondering, why `undefined` are being returned for arrow function body where block exists, that is because `function` implicitly returns `undefined`, this is beacuse, the dev tools will print the result of whatever we type, which means it will try to evaluate whatever we write, 
 an assingment never `return` any value, because of which the evaluation returns `undefined`, however, if we assign a value to variable already decalred, the value assinged to the variable is used as the return value, and for the same reason `function` also `return` `undefined`. 
 
