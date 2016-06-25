@@ -6,7 +6,7 @@ In ES6, two new literals where introduced for `string` namely the
 * Template literal
 * Tagged template literal
 
-### Template Literal
+## Template Literal
 Template literal is a new kind of string literal which is introduced to provide a better support for multi line string support and provide string interpolation. Other benefits which is offered by template literal :
 
 * You can interpolate variables in them
