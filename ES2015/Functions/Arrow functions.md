@@ -396,3 +396,5 @@ var b = new a();                        //Type error
 
 ****
 **Previous Chapter: [Spread operators](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Spread%20operator.md)**
+
+[Strings](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/main.md)
