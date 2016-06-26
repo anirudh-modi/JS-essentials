@@ -231,3 +231,216 @@ var msg=`Hello, this is a ${(()=>'sunny')()} morning`;
 console.log(msg);
 // Hello, this is a sunny morning.
 ````
+
+## Tagged Template literal
+
+We have seen how template literals help us reduce the effort of performing string concatenation and create multi-line string effortlessly, but, ES6 also offers us the verbosity of creating a totally different string of our own, using the template literals along with a tag, this feature is known as the *tagged template literal*. A tag is `function` which will receive a `strings array` and list of **evaluated values** of `interpolated expression` which were used in a template literal, and using it whatever `string` returned by the tag function, will be used as the output. Let's look at the syntax.
+
+#### Syntax
+
+As mentioned, a tag is nothing but a function, only when we use it front of a template literal it gets called.
+
+````javascript
+function tag(strings,...values) {
+    console.log(strings);
+    console.log(values);
+}
+
+tag`hello, from template literal`;
+//[hello, from template literal]
+//[]
+````
+
+Since, in the above example no *interpolated expression* were used the second parameter is empty.
+
+````javascript
+function tag(strings,...values) {
+    console.log(strings);
+    console.log(values);
+}
+
+var name = 'Anirudh';
+
+tag`hello, ${name}!`;
+//["hello, ","!"]
+//["Anirudh"]
+````
+
+You must be confused! what is that! how can you use a function like that!!! Well, this is a new kind of function call which does not need a parentheses `()` after it, here the function `tag` gets called when used in front of a template literal, the string which is a part of the template literal is parsed and passed as a value to the function `tag`.
+
+When the `tag` function is called, the first parameter which is passed to the function, is the `array` of `strings` which are used within template literals, this `array` will not include the values of *interpolated expression*, however it will have `strings` around them, which is why in the second example we get an `array` of two elements `"hello ,"` and `!`.
+
+And the rest of the parameters which passed to the `tag` function are the **evaluated values** of the *interpolated expression* used within the template literals. Since, there can be `n` number of values, it is better to represent them using a `rest parameter`, which will return an `array` of *values* for all the expressions use in the template literal.
+
+The `strings` in the array are the splitted strings in order, as an expression comes up in the original literal, so the first string was `hello ,` after which came the expression, and after the expression came the `!` , hence two strings and the order of the string is also maintained and the order of the expression value is also maintained.
+
+````javascript
+function tag(strings,...values) {
+    console.log(strings);
+    console.log(values);
+}
+
+var name = 'Anirudh';
+
+tag`hello: ${name}! ${`Modi`}`;
+//["hello: " , "! " , ""]
+//["Anirudh" , "Modi"]
+````
+
+You can see that this literal now has two expressions! One after the string `hello: ` and the other after the string `! `, so if we look up the string array, first element is the `hello: `, second element is `! `, and there is a third element which signifies the string after the last epxression, and since there is nothing after the last expression `${`Modi`}`, an empty string is inserted, and this will be the default behavior, we can also see that the `values` array is also in order, the first element is `Anirudh`, which comes after the `hello: `, the second element is `Modi` which comes after the `! `.
+
+> So, it can be noted that the order of the `string` array and the values of the *interpolated expression* within the literal will always be the same as the literal, and even if a *interpolated expression* is the last item in the literal, the length of the `string` array will always be 1 greater than the length of `values` array.
+
+````javascript
+tag`Hello`;     // Syntax error, undefined is not a function
+                // because the tag function is never defined
+````
+
+Naming of a tag function is not restricted to `tag` any name can be used to represent a tag function, because in the end it is function.
+
+````javascript
+function fooMe(strings,...values) {
+    console.log(strings);
+    console.log(values);
+    console.log(arguments);         // arguments object will return a single
+                                    // array with first param as array of
+                                    // strings and the values of expression
+                                    // will be scattered
+
+}
+
+var name = 'Anirudh';
+
+fooMe`hello, ${name}!`;
+//["hello, ","!"]
+//["Anirudh"]
+// [["hello, ","!"],"Anirudh"]
+````
+
+This also means that function can also be a `arrow functions`, or an `anonymous/named function` can be returned within a function which can be used as a tag function.
+
+````javascript
+var fooArrow = (strings,...values) => {
+    console.log(strings);
+    console.log(values);
+};
+
+fooArrow`hello, ${name}!`;
+//["hello, ","!"]
+//["Anirudh"]
+
+function returnTagFunc() {
+    return function(strings,...values) {
+        console.log(strings);
+        console.log(values);
+    }
+}
+
+returnTagFunc()`hello, ${name}!`;
+//["hello, ","!"]
+//["Anirudh"]
+````
+
+It was mentioned that whatever the tag function `return` will be treated as and used as new `string`, which means we can return a totally different `string` and if nothing is returned then function implicitly `returns` `undefined` which will be the value of the new `string`.
+
+````javascript
+function fooMe(strings,...values) {
+    console.log(values);
+}
+
+var name = 'Anirudh';
+
+var taggedText = fooMe`hello, ${name}!`;
+console.log(taggedText);
+// undefined
+
+
+var fooArrow = (strings,...values) => 'foo is me';
+
+var taggedArrow = fooArrow`hello, ${name}!`;
+console.log(taggedArrow);
+// foo is me
+````
+
+Now, that we understood the syntax for the tagged template literals, let look how can we use to parameters to build up a new string.
+
+````javascript
+function fooMe(strings,...values) {
+    let result = ;
+
+    // You can run a loop on the strings also, but 
+    // then while adding we need to keep in mind that the 
+    // len of string is 1 greater than values,
+    // which means there is no element in 
+    // values[strings.length-1]
+    for(let i=0;i<values.length;i++) {
+        result = strings[i]+values[i];
+    }
+
+    // Since the length of values will always be one less than string, 
+    // we need to include the last element of the string
+    result = result + strings[strings.length - 1];
+
+    return result;
+}
+
+var name = 'Anirudh';
+
+var taggedText = fooMe`hello, ${name}!`;
+
+console.log(taggedText);
+// hello, Anirudh!
+````
+
+We can also use template literals within the function to create new string, but we need to be careful about the `whitespaces` as they will also get included as a part of the new `string`.
+
+````javascript
+function fooMe(strings,...values) {
+    let result = ``;
+
+    // You can run a loop on the strings also, but 
+    // then while adding we need to keep in mind that the 
+    // len of string is 1 greater than values,
+    // which means there is no element in 
+    // values[strings.length-1]
+    for(let i=0;i<values.length;i++) {
+        result = `${result}${strings[i]}${values[i]}`;
+    }
+
+    // Since the length of values will always be one less than string, 
+    // we need to include the last element of the string
+    result = `${result}${strings[strings.length - 1]}`;
+
+    return result;
+}
+
+var name = 'Anirudh';
+
+var taggedText = fooMe`hello, ${name}!`;
+
+console.log(taggedText);
+// hello, Anirudh!
+````
+
+With ES6, every string has two distinct version :
+
+* Cooked version : Where the backlashes are interpreted, which means that `\n` will be interpreted as a new line
+* Raw version : where the backlashes are not interpreted, which means that a `\n` will not be interpreted as a new line but left as it is.
+
+````javascript
+var str = String.raw`Hello\nWorld`;
+
+console.log(str);
+console.log(str.length);
+// Hello/nWorld
+// 12 this also means that the \n will be treated as characters of str
+````
+
+We can notice how we used `String.raw(.. )` as a tagged template function, well it a built in tagged template within the `String` wrapper object. The `String.raw(..)` can be useful to generate `regex` or other places where keeping the `/` would be useful.
+
+For more uses of tagged template literal you go through the links below : 
+
+* http://jaysoo.ca/2014/03/20/i18n-with-es6-template-strings/
+* http://wiki.ecmascript.org/doku.php?id=harmony:quasis
+* https://gist.github.com/dherman/6165867
+* https://gist.github.com/slevithan/4222600
