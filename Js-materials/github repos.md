@@ -10,3 +10,4 @@
 * [ES6 features](https://github.com/lukehoban/es6features) quick glance at ES6 features by [Luke Hoban](https://github.com/lukehoban)
 * [Todo MVC](https://github.com/tastejs/todomvc) Helping you select an MV* framework.
 * [es6-equivalents-in-es5](https://github.com/addyosmani/es6-equivalents-in-es5) ES6 Equivalents In ES5 by [Addy Osmani](https://github.com/addyosmani)
+* [Learning ES6](https://github.com/benmvp/learning-es6) by [Ben Ilegbodu](https://github.com/benmvp)
