@@ -13,5 +13,6 @@
 * [Pony foo](https://ponyfoo.com/)
 * [Ben Ilegbodu](http://www.benmvp.com/)
 * [Learning ES6 series](http://www.benmvp.com/learning-es6-series/) by Ben Ilegbodu
+* [Mathias Bynens](https://mathiasbynens.be/)
 
 
