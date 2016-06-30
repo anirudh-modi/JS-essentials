@@ -11,3 +11,4 @@
 * [Todo MVC](https://github.com/tastejs/todomvc) Helping you select an MV* framework.
 * [es6-equivalents-in-es5](https://github.com/addyosmani/es6-equivalents-in-es5) ES6 Equivalents In ES5 by [Addy Osmani](https://github.com/addyosmani)
 * [Learning ES6](https://github.com/benmvp/learning-es6) by [Ben Ilegbodu](https://github.com/benmvp)
+* [Free programming books](https://github.com/vhf/free-programming-books)
