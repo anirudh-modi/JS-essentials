@@ -9,3 +9,4 @@
 * Brian Lonsdorf - [Github](https://github.com/DrBoolean)
 * Lin clark - [Github](https://github.com/linclark)
 * Mattias Petter Johansson - [Github](https://github.com/mpj), [Twitter](https://twitter.com/mpjme)
+* Nicolás Bevacqua - [Github](https://github.com/bevacqua), [Twitter](https://twitter.com/nzgb)
