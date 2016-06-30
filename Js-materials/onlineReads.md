@@ -1,6 +1,7 @@
 ## Online reads
 
 * [Speaking Js](http://speakingjs.com/es5/index.html)
+* [A re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 * [Javascript garden](http://bonsaiden.github.io/JavaScript-Garden/)
 * [Js: The Right Way](http://jstherightway.org/#reading)
 * [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
