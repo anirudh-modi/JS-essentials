@@ -9,3 +9,4 @@
 * [The two pillars of Javascript](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3#.aux4p1r0s) by Eric Elliott
 * [Everything I know about the script tag](https://eager.io/blog/everything-I-know-about-the-script-tag/)
 * [Callback Hell](http://callbackhell.com/)
+* [Promises](https://blog.getify.com/promises-part-1/) by Kyle Simpson
