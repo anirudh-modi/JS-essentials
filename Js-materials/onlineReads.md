@@ -11,3 +11,4 @@
 * [Everything I know about the script tag](https://eager.io/blog/everything-I-know-about-the-script-tag/)
 * [Callback Hell](http://callbackhell.com/)
 * [Promises](https://blog.getify.com/promises-part-1/) by Kyle Simpson
+* [Javascript the good parts](http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf)
