@@ -10,3 +10,4 @@
 * Lin clark - [Github](https://github.com/linclark)
 * Mattias Petter Johansson - [Github](https://github.com/mpj), [Twitter](https://twitter.com/mpjme)
 * Nicolás Bevacqua - [Github](https://github.com/bevacqua), [Twitter](https://twitter.com/nzgb)
+* Mathias Bynens - [Github](https://github.com/mathiasbynens), [Twitter](https://twitter.com/mathias)
