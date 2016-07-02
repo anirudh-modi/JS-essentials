@@ -103,3 +103,10 @@ console.log(String.raw`Hello\nWorld`);                        // Hello\nWorld
 ````
 
 You can see that the `\n`is not escaped in case of the `String.raw`.
+
+
+****
+
+**Previous chapter : [New literals](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/new%20literals.md)**
+
+**Next chapter : [Iterating over strings](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/iteratingoverstring.md)**
