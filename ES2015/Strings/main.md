@@ -4,3 +4,4 @@ a couple of new literals to initialize a string were also included. Let's look i
 
 * [New literals](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/new%20literals.md)
 * [New methods in string wrapper](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/stringMethods.md)
+* [Iterating over string](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/iteratingoverstring.md)
