@@ -438,9 +438,16 @@ console.log(str.length);
 
 We can notice how we used `String.raw(.. )` as a tagged template function, well it a built in tagged template within the `String` wrapper object. The `String.raw(..)` can be useful to generate `regex` or other places where keeping the `/` would be useful.
 
+#### Further Reads on tagged template literal
+
 For more uses of tagged template literal you go through the links below : 
 
 * http://jaysoo.ca/2014/03/20/i18n-with-es6-template-strings/
 * http://wiki.ecmascript.org/doku.php?id=harmony:quasis
 * https://gist.github.com/dherman/6165867
 * https://gist.github.com/slevithan/4222600
+
+****
+
+**Next chapter : [New methods in String Wrapper](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/stringMethods.md)**
+
