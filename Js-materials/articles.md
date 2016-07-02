@@ -5,3 +5,4 @@
 * [ES6 Overview in 350 Bullet Points](https://ponyfoo.com/articles/es6)
 * [Immutability is not enough](https://codewords.recurse.com/issues/six/immutability-is-not-enough)
 * [ES6 promises in depth](https://ponyfoo.com/articles/es6-promises-in-depth) by Nicolás Bevacqua
+* [JavaScript has a Unicode problem](https://mathiasbynens.be/notes/javascript-unicode) By Mathias Bynens
