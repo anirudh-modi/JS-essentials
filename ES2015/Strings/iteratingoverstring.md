@@ -1,5 +1,6 @@
 ## Iterating over a string
-Since, `strings` are nothing but `iterables`, we can use the `for..of` loop to iterate over any string. The `for..of` loop will iterate over the string and give a value present in the `string`. The details of the `for..of` loop will be discussed later in the `iterators` chapter. Let's look at a small example though.
+
+Apart from using the traditional `for` loop over a string and the `for..in` loop, ES6 introduced a new operator which can be performed over `iterable`, and since, `string` are nothing but `iterable`, we can use the `for..of` loop to iterate over any string. The `for..of` loop will iterate over the string and give a value present in the `string`. The details of the `for..of` loop will be discussed later in the `iterators` chapter. Let's look at a small example though.
 
 ````javascript
 let str = 'Hello';
