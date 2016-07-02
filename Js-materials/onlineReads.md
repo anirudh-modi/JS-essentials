@@ -3,6 +3,8 @@
 * [Speaking Js](http://speakingjs.com/es5/index.html)
 * [A re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
+* [Exploring ES6](http://exploringjs.com/es6/)
+* [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read)
 * [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix/read)
 * [Javascript garden](http://bonsaiden.github.io/JavaScript-Garden/)
 * [Js: The Right Way](http://jstherightway.org/#reading)
