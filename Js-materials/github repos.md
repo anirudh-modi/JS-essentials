@@ -4,6 +4,7 @@
 * [Js assessment](https://github.com/rmurphey/js-assessment) by [Rebecca Murphey](https://github.com/rmurphey)
 * [Breakfast Repo](https://github.com/ashleygwilliams/breakfast-repo) by [Ashley Williams](https://github.com/ashleygwilliams)
 * [Idiomatic.js](https://github.com/rwaldron/idiomatic.js) Principles of Writing Consistent, Idiomatic JavaScript by [Rick Waldron](https://github.com/rwaldron)
+* [ECMAScript 5/6/7 compatibility tables](https://github.com/kangax/compat-table) by [Juriy Zaytsev](https://github.com/kangax)
 * [Airbnb Javascript Style Guide](https://github.com/airbnb/javascript#strings)JavaScript Style Guide by Airbnb.
 * [TC39 notes](https://github.com/rwaldron/tc39-notes) get all the notes for a discussion, with the members during a new feature for JS! by [Rick Waldron](https://github.com/rwaldron)
 * [TC39 proposals](https://github.com/tc39/proposals) stay updated with all the features might come in JS!
