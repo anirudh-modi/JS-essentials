@@ -13,3 +13,4 @@
 * [Scope and the JavaScript Compiler](https://www.youtube.com/watch?v=nRZri_CHqnA)
 * [The Features of ES6](https://www.youtube.com/watch?v=aeY6ctvsurs)
 * [ES6 Modules Standard and Syntax](https://www.youtube.com/watch?v=qi_rLTcXers&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf)
+* [Axel Rauschmayer - ECMAScript 6: what's next for JavaScript](https://www.youtube.com/watch?v=G21rdWfa_as)
