@@ -10,3 +10,4 @@
 * [Callback-less Asynchrony: ES6, Generators, and the next wave of JavaScript development](https://www.youtube.com/watch?v=3UKsXCMK6Iw)
 * [Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
 * [Douglas Crockford’s Function Challenges](https://frontendmasters.com/courses/javascript-the-good-parts/douglas-crockfords-function-challenges/)
+* [Scope and the JavaScript Compiler](https://www.youtube.com/watch?v=nRZri_CHqnA)
