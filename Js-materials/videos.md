@@ -11,3 +11,5 @@
 * [Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
 * [Douglas Crockford’s Function Challenges](https://frontendmasters.com/courses/javascript-the-good-parts/douglas-crockfords-function-challenges/)
 * [Scope and the JavaScript Compiler](https://www.youtube.com/watch?v=nRZri_CHqnA)
+* [The Features of ES6](https://www.youtube.com/watch?v=aeY6ctvsurs)
+* [ES6 Modules Standard and Syntax](https://www.youtube.com/watch?v=qi_rLTcXers&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf)
