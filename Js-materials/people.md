@@ -1,7 +1,9 @@
 ## People to follow
 
+* Brendan Eich - [Github](https://github.com/brendaneich), [Twitter](https://twitter.com/BrendanEich?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 * Kyle Simpson - [Github](https://github.com/getify), [Twitter](https://twitter.com/getify)
 * Axel Rauschmayer - [Github](https://github.com/rauschma)
+* Douglas Crockford - [Github](https://github.com/douglascrockford)
 * Nicholas C. Zakas - [Github](https://github.com/nzakas/)
 * Kent C. Dodds - [Github](https://github.com/kentcdodds)
 * Ashley Williams - [Github](https://github.com/ashleygwilliams)
