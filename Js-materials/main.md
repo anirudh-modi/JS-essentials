@@ -13,3 +13,4 @@ Hope you find it useful.
 * [Articles](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/articles.md)
 * [Online reads](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/onlineReads.md)
 * [Videos](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/videos.md)
+* [People to follow](https://github.com/anirudh-modi/JS-essentials/blob/master/Js-materials/people.md)
