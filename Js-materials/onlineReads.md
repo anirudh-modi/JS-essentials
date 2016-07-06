@@ -4,6 +4,7 @@
 * [A re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
 * [Exploring ES6](http://exploringjs.com/es6/)
+* [Exploring ES2016 and ES2017](https://leanpub.com/exploring-es2016-es2017/read)
 * [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read)
 * [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix/read)
 * [Javascript garden](http://bonsaiden.github.io/JavaScript-Garden/)
