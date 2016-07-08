@@ -27,4 +27,5 @@
 * [Brian Lonsdorf - Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
 * [Mattias Petter Johansson - Functional programming in JavaScript Series](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 * [Anjana Vakil: Learning Functional Programming with JavaScript - JSUnconf 2016](https://www.youtube.com/watch?v=e-5obm1G_FY)
+* [JavaScript Air Episode 003: Functional and Immutable Design Patterns in JavaScript](https://www.youtube.com/watch?v=82M9fKe7hiw)
 
