@@ -25,4 +25,5 @@
 ### Functional Programming
 
 * [Brian Lonsdorf - Functional programming patterns for the non-mathematician (cut)](https://www.youtube.com/watch?v=AvgwKjTPMmM)
+* [Mattias Petter Johansson - Functional programming in JavaScript Series](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 
