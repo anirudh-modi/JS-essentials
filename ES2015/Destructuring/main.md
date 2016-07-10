@@ -340,8 +340,6 @@ console.log(x5, x6);            // 1 [2, {a : 3}, 4]
 console.log(x7, x8);            // 1 [{a : 3}, 4]
 ````
 
-> You can see how I am destructuring the same array multiple times, this can be done in a much easire way and that too in a single destructuring, know an 'Reapeated assignment', which we will se very soon.
-
 Now, We are again not limited to using `array` within `object`, and vice versa, we can destructure an even more complex data, let's look at an example to see.
 
 ````javascript
