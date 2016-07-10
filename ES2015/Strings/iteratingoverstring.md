@@ -20,3 +20,5 @@ var arr = [...str]; // ["B","l","u","e"]
 ****
 
 **Previous Chapter : [New methods in string wrapper](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/stringMethods.md)**
+
+**[Destructuring](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Destructuring/main.md)**
