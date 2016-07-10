@@ -3,6 +3,7 @@
 1. [Variable declaration](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Variable-and-scoping/main.md)
 2. [Functions](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Functions.md)
 3. [Strings](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Strings/main.md)
+4. [Destructuring](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Destructuring/main.md)
 
 > You will find alot of examples, and, if you are here for learning purpose, do make sure to try the examples out, without that nothing fruitfull can come to you.
 
