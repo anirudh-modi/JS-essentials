@@ -230,12 +230,12 @@ What happened above is, while destructuring, it extracted the first value and se
 
 > NOTE : The rest parameter `...` must be the last parameter, which means this is an invalid syntax `var [a, b, ...c, d] = arr;` because a variable `d` came after the rest parameter `c`.
 
-#### Nested destructuring
+## Nested destructuring
 
 We are not limited to destructure, a single level of nesting object literal/ array, we can destructure any level of nested object/array, let's see how it can be done.
 
 
-###### Nested Object
+#### Nested Object
 ````javascript
 var obj = {
   a : {
@@ -284,7 +284,7 @@ console.log(willRun);     // null Just to show that since, here it is an assignm
                           // convert into an object an error was thrown.
 ````
 
-##### Nested Array
+#### Nested Array
 
 ````javascript
 var arr = [1, 2, [3, 4], 5];
@@ -302,7 +302,7 @@ var [a, [b], c] = arr;      // TypeError
 var [[a], b, c] = arr;      // TypeError
 ````
 
-##### Mixed Nesting
+#### Mixed nesting
 Till now we have only seen scenarios where either arrays are destructured or objects, however, we must know, that destructuring is not just limited to a single patter, just like during creating an object literal we can have arrays in it, with `n-level` of nesting, and vice versa, these patterns exists so that, we use nested combination to destructure a data which is with multiple pattern. lets look at an example to understand.
 
 ````javascript
@@ -368,7 +368,7 @@ console.log(x1, x2, x3, x4, x5, x6);      // 1 2 3 'red' 'blue' 4
 
 As long as we are following the patterns rules correctly, we can destructure any level of nested data, with any kind of data within it.
 
-#### Repeated assignment
+## Repeated assignment
 
 In destructuring we are not just limited to assigning the value of an object to just one variable, we can assign the same property of an object to multiple variable.
 
