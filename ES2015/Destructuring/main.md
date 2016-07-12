@@ -307,13 +307,13 @@ Till now we have only seen scenarios where either arrays are destructured or obj
 
 ````javascript
 var obj = {
-  'a' : 1,
-  'b': [2, 3]
+  a : 1,
+  b : [2, 3]
 };
 
 var {
-  'a' : x1,
-  'b' : [x2, x3]
+  a : x1,
+  b : [x2, x3]
 };
 
 console.log(x1, x2, x3);    // 1 2 3
@@ -372,8 +372,8 @@ In destructuring we are not just limited to assigning the value of an object to 
 
 ````javascript
 var obj = {
-  a:1,
-  b:2
+  a : 1,
+  b : 2
 };
 
 var {
@@ -390,8 +390,8 @@ We use repeated assignment during the case of nested destructuring very efficien
 ````javascript
 var obj = {
   a : {
-    b:1,
-    c:2
+    b : 1,
+    c : 2
   }
 };
 
