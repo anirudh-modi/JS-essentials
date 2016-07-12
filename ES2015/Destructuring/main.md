@@ -449,3 +449,111 @@ console.log(x1, x2, x3, validColors, colorName, colorHexCode, colorObject);
 // 'colorInfo' 'red' 'blue' ['red', 'blue']  'red' '#ff0000' {color : 'red', hex : '#ff0000'}
 ````
 We can see in above example of how we used array pattern to destructure the `b` array, then we again used same `b` and assigned to a new variable `vaildColor` which holds the array of valid colors, and then how we destructured the `c` object, and assgined the properties of `c` to variables `colorName` and `colorHexCode`, and then we assigned the entire object `c` to the variable colorObject for future reference.
+
+## Default values
+Earlier we landed into a situation where, a value which were trying to extract was not present in the object/array, and often it gave us a `TypeError` (if we perform nested destructuring) or it simply returned an `undefined`. In destructuring we can also set a default value for a variable, which means that if a value is not found in the original `object`/`array`, and a default value is provided, then the default value value will be assigned to the variable-target else `undefined` will be assigned, let's look into it by an example.
+
+````javascript
+var obj = {a : 1};
+
+var {a : x , b : x1 = 10} = obj;
+
+console.log(x, x1);     // 1, 10
+
+var arr = [];
+
+var [a = 5, b = 10] = arr;
+
+console.log(a, b);   // 5 10
+````
+
+We need to careful about the fact that the default value is assigned to the newly created variable [**variable-target**], it is not assigned to the property in the original array/object. Which means if we perform a repeated assignment, we again need to provide the default value for the **variable-target**, because the value of the property in original object is still `undefined`, or that property is still not present, let's look by example
+
+`````javascript
+var obj = { a : 1 };
+
+var { a : x, b : x1 = 10, b : x2 } = obj
+
+console.log(x, x1, x2);     // 1 10 undefined
+`````
+
+In the above code, we can see that even though a default value was provided, during repeated assignment of `b`, since, `b` is still missing in the original object, it set the value as `undefined`.
+
+Let's look how this can effect the nested destructuring, take a look at the code snippet below.
+
+````javascript
+var obj = {'name' : 'Goku'};
+
+// If we try to destructure the above object using the pattern below,
+// it throw `TypeError` as the 'obj'
+// is not having any property 'attacks' and hence, `undefined` is assigned
+// and then the same value is used to destructure which throws `TypeError`.
+
+var { name, attacks : { specialMove } } = obj;
+
+// We can solve this problem by using default value.
+var { name, attacks : { specialMove } = { specialMove : ["Kamehameha", "Spirit Bomb"] } } = obj;
+
+console.log(name, specialMove);    // Goku ["Kamehameha","Spirit Bomb"]
+````
+
+The above code didn't caused any issue, because, when `attacks` referred it found an `undefined` value, but watching the default value associated with it, the default value was used, and when it watched that the **variable-target** is an *object literal* it used the same default value for further destructuring, and hence never got any error. Let's look at another example.
+
+````javascript
+var obj = {'name' : 'Goku'};
+
+var { name, attacks : { specialMove } = { specialMove : ["Kamehameha", "Spirit Bomb"] }, attacks } = obj;
+
+console.log(name, specialMove, attacks);
+// Goku ["Kamehameha","Spirit Bomb"] undefined
+````
+
+The above example, makes it clear that even though we used default when `attacks` was first referred, but during second reference, it again found that `attacks` is missing from `obj`, and hence, `undefined` was assigned. Default values are only computed if the value which we are trying to access is `undefined` or not present in the array/object. Let's look at an example.
+
+````javascript
+function getAttacksOption() {
+
+  console.log('Getting default value')
+  return {
+    specialMove : ["Kamehameha", "Spirit Bomb"]
+  };
+}
+
+var objWithAttacks = {
+  'name' : 'Goku',
+  'attacks' : {
+     specialMove : ["Kamehameha"]
+   }
+  };
+
+var objWithoutAttacks = {'name' : 'Goku'};
+
+var {
+  name : n1,
+  attacks : a1 = getAttacksOption()
+} = objWithAttacks;
+
+var {
+  name : n2,
+  attacks : a2 = getAttacksOption()
+} = objWithoutAttacks;
+````
+
+We can look the console `Getting default value` is coming only once, as the `objWithAttacks` already have an `attack` property in it, and hence, the default was not used, however the object `objWithoutAttacks` does not have the property, `attacks` and hence, the function `getAttacksOption` was called to get the default value. [Know more about default parameter.](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Functions/Default%20parameter.md)
+
+Default values can be used for nested mixed destructuring also. It is not just limited to nested array or nested objects.
+
+````javascript
+var obj = {};
+
+var {
+  a : {
+    b : [ x1, x2 ] = [ 1, 2 ]
+  } = { b : undefined }
+} = obj;
+
+console.log(x1, x2);
+// 1 2
+````
+
+We can see that original object was totally empty, and using default values we ended up extracting `x1` and `x2` from an array, using default values. Just to walk you through, It first used the default value `{ b : undefined }` to assign value to `a`, it then used the default of `b` `[ 1, 2 ]` and then, went on to destructure the final array.
