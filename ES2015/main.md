@@ -32,6 +32,11 @@ Even though I write this, by no means, I can forget the people/blogs/books which
 * http://www.2ality.com/2015/01/template-strings-html.html
 * http://www.benmvp.com/learning-es6-template-literals-tagged-templates/
 * https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/
+* http://wiki.ecmascript.org/doku.php?id=proposals:destructuring_assignment
+* http://wiki.ecmascript.org/doku.php?id=discussion:destructuring_assignment
+* http://wiki.ecmascript.org/doku.php?id=harmony:destructuring
+* https://gist.github.com/mikaelbr/9900818
+
 
 **Awesome people**
 * [Kyle simpson](https://github.com/getify) his blogs, books has been like a bible for JS community, have helped me in falling in love with JS.
