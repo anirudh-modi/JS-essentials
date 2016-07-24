@@ -557,3 +557,181 @@ console.log(x1, x2);
 ````
 
 We can see that original object was totally empty, and using default values we ended up extracting `x1` and `x2` from an array, using default values. Just to walk you through, It first used the default value `{ b : undefined }` to assign value to `a`, it then used the default of `b` `[ 1, 2 ]` and then, went on to destructure the final array.
+
+## Destructuring parameter
+
+Destructuring is not just limited to the regular variable declaration or destructuring multiple values returned from a function, we can also destructure the argument passed to a function. So, with destructuring if, we know our function accepts either an `object` or an `array`, then depending on the type, we can use the appropriate destructuring pattern to destructure the arguments passed to our function. Let's look at this code below and how it can be solved with destructuring.
+
+```javascript
+function foo(obj) {
+  console.log(obj.a);
+
+  console.log(obj.b);
+}
+
+foo({a : 1, b : 2});    // 1 2
+```
+
+In the above example, we know that our function `foo` is accepting a parameter `obj` which is meant to be an object. And to extract the values we are using the `.` dot operator, but, since we know that the `obj` will be ideally be an object, we could have just specify the object pattern to destructure the object. Let's see how.
+
+````javascript
+function foo({a, b}) {
+  console.log(a);
+  console.log(b);
+}
+
+var dummyObj = {
+  a : 1,
+  b : 2
+}
+
+foo(dummyObj);    // 1 2
+````
+
+We can see that, we are passing the `dummyObj` to the function `foo`, and since we are already expecting an object, we can use the object pattern to destructure the `dummyObj`. Destructuring doesn't effect the `arguments` object, even though we destructured the object, the function has only one parameter defined and the `arguments` object will show only one value.
+
+````javascript
+function foo({a, b}) {
+  console.log(a);
+  console.log(b);
+  console.log(arguments)
+}
+
+var dummyObj = {
+  a : 1,
+  b : 2
+}
+
+foo(dummyObj);    // 1 2 {a : 1, b : 2}
+````
+
+Let's look at another example.
+
+```javascript
+function foo({a, b}, c) {
+  console.log(a);             // 1
+  console.log(b);             // 2
+  console.log(c);             // 3
+  console.log(arguments);     // [{a : 1, b : 2}, 3]
+}
+
+var dummyObj = {
+  a : 1,
+  b : 2
+}
+
+foo(dummyObj, 3);
+```
+
+If we look in the above example,, that the `arguments` object only specifies two values being passed, but we have destructured the `dummyObj`. An error might occur if value being based is not an object, which means if `null`/`undefined` is passed as first value to this `foo` a `TypeError` will occur.
+
+We are not just restricted to objects, we can destructure an array value also, using array pattern.
+
+```javascript
+function foo([a, b]) {
+  console.log(a);   // 1
+  console.log(b);   // 2
+}
+
+foo([1, 2]);
+```
+
+Since, foo was now expecting array, we can use the array pattern to destructure.
+
+### Default value while destructuring
+
+Just like while destructuring, we can specify default values, if the property is not found in array or object, Same is applied for the parameter destructuring.
+
+````javascript
+function foo([a = 3, b = 4]) {
+  console.log(a);
+  console.log(b);
+}
+
+foo([1]);    // 1, 4
+foo([]);     // 3, 4
+foo([2, 5]); // 2, 5
+
+
+function acceptFooObject({a = 'da', b = 'db'}) {
+  console.log(a);
+  console.log(b);
+}
+
+acceptFooObject({});                      // da, db
+acceptFooObject({a : 'ca'});              // ca, db
+acceptFooObject({a : 'ca', b : 'cb'});    // ca, cb
+````
+
+### Mixed destructuring + Nested + Repeated assignment + parameter
+
+If our function is accepting both an object and array, we can destructure both using the appropriate destructuring pattern.
+
+````javascript
+function foo( { a, b, b : { c } }, [d, e] ) {
+  console.log(a);
+  console.log(b);
+  console.log(c);
+  console.log(d);
+  console.log(e);
+}
+
+var dummyObj = {
+  a : 1,
+  b : {
+    c : 2
+  }
+}
+foo(dummyObj, [4, 5]);  //  1, {c : 2}, 2, 4, 5
+````
+
+````javascript
+function foo( { a, b : [ c, d ], b } ) {
+  console.log(a);
+  console.log(b);
+  console.log(c);
+  console.log(d));
+}
+
+var dummyObj = {
+  a : 1,
+  b : [2, 3]
+}
+foo(dummyObj);   // 1, [2, 3],  2, 3
+````
+
+### Default parameter value + destructuring
+
+Now, we must also cover the difference between the default value while destructuring and default parameter value.
+
+````javascript
+function foo( { a = 1 } = { a : 5 } ) {
+  console.log(a);
+}
+
+foo();              // 5
+foo({});            // 1
+foo({a : 2});       // 2
+````
+
+So, what really happened? You must be confused with so many `=`, let's take one code at a time. Here, two things are happening, one is default value will assigned to parameter, if no value was passed, and the second is, if the parameter passed is not having the property `a` then, the default value of `1` will be assigned to the variable `a`. So, If, we look at the code `= { a : 5 }` this, is actually the default value for the parameter, and the code `= 1` is the default value for `a`, which will be used if the object which we are destructuring, is not having the property `a`.
+
+Now let's look at the execution, to clear things ups.
+1. The `foo()`, this gives us a console of `5`, that is because, while calling `foo`, we never passed any argument to the `foo` function, hence, the default value for the parameter is triggered, and the object `{ a : 5 }` is assigned as the first value to the parameter for `foo` and used to destructure, hence, `5`.
+
+2. The `foo({})`, this gives a console of `1`, that is because, this time we passed an argument `{}` to `foo`, hence, the default value for the parameter will not be triggered, and the argument `{}` will be used to destructure, however, when the property `a` was not found in the object `{}`, the default value for `a` was triggered and hence, `1`.
+3. The `foo({a : 2})`, this a console of `2`, which is for obvious reason, and that is because this time again we passed the argument as object `{ a : 2 }`, which is used for destructuring, and the same object is used to destructure, and while destructuring properrty `a` was found in the object, and no need was required for using the default value of `a` while destructuring.
+
+Some, other variation for triggering of default value could.
+
+```javascript
+function foo( { a = 1 } = { a : 5 } ) {
+  console.log(a);
+}
+
+foo(undefined);  // 5
+foo({b : 2});    // 1
+foo(null);       // TypeError
+```
+
+A note for the last example `foo(null)` this will throw an `TypeError`, because `null` is a valid value, and it will not trigger a default value for the parameter, and hence, the `null` will be used for destructuring, and since it was mentioned earlier `null` and `undefined` don't return an `object` it throw an `TypeError`.
