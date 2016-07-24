@@ -7,3 +7,4 @@ In ES6, a new syntax was introduced to extract datas from a data structures and 
 * [Nested destructuring](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Destructuring/main2.md#nested-destructuring)
 * [Repeated assignment](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Destructuring/main2.md#repeated-assignment)
 * [Default values](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Destructuring/main2.md#default-values)
+* [Destructuring parameters](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Destructuring/main2.md#destructuring-parameter)
