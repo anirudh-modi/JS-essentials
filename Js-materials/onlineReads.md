@@ -18,3 +18,4 @@
 * [Callback Hell](http://callbackhell.com/)
 * [Promises](https://blog.getify.com/promises-part-1/) by Kyle Simpson
 * [Javascript the good parts](http://bdcampbell.net/javascript/book/javascript_the_good_parts.pdf)
+* [Basic JavaScript for the impatient programmer](http://www.2ality.com/2013/06/basic-javascript.html)
