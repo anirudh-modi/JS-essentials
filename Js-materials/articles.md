@@ -6,6 +6,7 @@
 * [Private Members in JavaScript](http://www.crockford.com/javascript/private.html)
 * [JavaScript has a Unicode problem](https://mathiasbynens.be/notes/javascript-unicode) By Mathias Bynens
 * [Javascript the core]( http://dmitrysoshnikov.com/ecmascript/javascript-the-core/)
+* [Why Prototypal Inheritance Matters](http://aaditmshah.github.io/why-prototypal-inheritance-matters/)
  
 ### ES.Next (ES6 & Beyond)
 
@@ -17,4 +18,3 @@
 
 ### Promises
 * [ES6 promises in depth](https://ponyfoo.com/articles/es6-promises-in-depth) by Nicolás Bevacqua
-* [Why Prototypal Inheritance Matters](http://aaditmshah.github.io/why-prototypal-inheritance-matters/)
