@@ -17,3 +17,4 @@
 
 ### Promises
 * [ES6 promises in depth](https://ponyfoo.com/articles/es6-promises-in-depth) by Nicolás Bevacqua
+* [Why Prototypal Inheritance Matters](http://aaditmshah.github.io/why-prototypal-inheritance-matters/)
