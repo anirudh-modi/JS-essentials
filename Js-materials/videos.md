@@ -5,6 +5,7 @@
 * [Douglas Crockford’s Function Challenges](https://frontendmasters.com/courses/javascript-the-good-parts/douglas-crockfords-function-challenges/)
 * [Mathias Bynens - Javascript loves unicode](http://conferences.oreilly.com/fluent/javascript-html-2015/public/content/2015/02/18-javascript-loves-unicode)
 * [Kyle Simpson - Scope and the JavaScript Compiler](https://www.youtube.com/watch?v=nRZri_CHqnA)
+* [Philip Roberts: What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 
 ### Inhertiance In Js
 * [Axel Rauschmayer - JavaScript inheritance: beyond the basics](https://www.youtube.com/watch?v=NyClWddeO_A)
