@@ -735,3 +735,7 @@ foo(null);       // TypeError
 ```
 
 A note for the last example `foo(null)` this will throw an `TypeError`, because `null` is a valid value, and it will not trigger a default value for the parameter, and hence, the `null` will be used for destructuring, and since it was mentioned earlier `null` and `undefined` don't return an `object` it throw an `TypeError`.
+
+****
+
+**[Arrays](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Arrays/mainArray.md)**
