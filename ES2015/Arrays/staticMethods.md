@@ -27,7 +27,7 @@ console.log(arr1);        // [3,'red']
 
 This, behavior prevents us from creating an array with just a single number it, if we want to use the `Array` constructor, so to overcome, two new static function was included, in `Array` constructor, which can be used to create a new array.
 
-### `Array.of`
+## `Array.of`
 
 The `Array.of` is not supposed to have the issues which was with the `Array` constructor, it accepts n-number of parameter, which are used to creates an array. If no parameter is passed then an empty array is returned.
 
@@ -42,7 +42,7 @@ var arr1 = Array.of();
 console.log(arr1);      // []
 ````
 
-### `Array.from`
+## `Array.from`
 
 The `Array.of` can have one drawback, which is if we wish to create an array out of an [`array-like` object](http://www.2ality.com/2013/05/quirk-array-like-objects.html) (`node-list`,`arguments`,etc..) or an [`iterable` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Builtin_iterables), we will have to manually run and loop and create an array out of it.
 
