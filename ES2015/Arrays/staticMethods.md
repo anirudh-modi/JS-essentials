@@ -42,6 +42,13 @@ var arr1 = Array.of();
 console.log(arr1);      // []
 ````
 
+If we pass `null` or `undefined` to `Array.of` it creates array with `null` or `undefined` values.
+
+````javascript
+Array.of(null);                     // [null]
+Array.of(undefined,undefined);      // [undefined, undefined]
+````
+
 ## `Array.from`
 
 The `Array.of` can have one drawback, which is if we wish to create an array out of an [`array-like` object](http://www.2ality.com/2013/05/quirk-array-like-objects.html) (`node-list`,`arguments`,etc..) or an [`iterable` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Builtin_iterables), we will have to manually run and loop and create an array out of it.
