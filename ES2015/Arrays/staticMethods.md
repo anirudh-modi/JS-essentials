@@ -1,4 +1,4 @@
-# Static methods to create new Array
+# Static Methods to Create New Array
 
 Prior ES6, there were two of creating a new array, one using the array literal `[]`, the second was using the `Array` constructor. Creating an array using the `Array` constructor has been a little less intuitive.
 
@@ -60,7 +60,7 @@ The `Array.from` accepts 3 parameters :
 2. The mapping function, which is an optional parameter, which can be used to what goes in the array. If this function is not provided then no mapping will be applied on the individual element of the object.
 
 
-#### `array-like` object
+#### `array-like` Object
 ````javascript
 function foo() {
   var argsArray = Array.from(arguments);
@@ -70,7 +70,7 @@ function foo() {
 foo( 1 , 2 , 3 , 4, 5 , 6 );
 ````
 
-#### `iterable` object
+#### `iterable` Object
 
 ````javascript
 var str = 'red';
