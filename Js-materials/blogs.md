@@ -1,5 +1,5 @@
 #### Blogs
-* [Getifblog](https://blog.getify.com/)
+* [Getiblog](https://blog.getify.com/)
 * [Brendan Eich](https://brendaneich.com/)
 * [Dmitry A. Soshnikov](http://dmitrysoshnikov.com/)
 * [2ality](http://www.2ality.com/)
