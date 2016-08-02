@@ -11,6 +11,7 @@
 * [Js: The Right Way](http://jstherightway.org/#reading)
 * [Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 * [Single Page App book](http://singlepageappbook.com/index.html)
+* [Maintainable JavaScript](http://www.reedbushey.com/61Maintainable%20Javascript.pdf)
 * [ECMAScript 5/6/7 compatibility tables](https://kangax.github.io/compat-table/es6/)
 * [Functional programming in Js](http://reactivex.io/learnrx/) by Jafar Husain
 * [The two pillars of Javascript](https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3#.aux4p1r0s) by Eric Elliott
