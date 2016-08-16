@@ -160,3 +160,7 @@ Array.from(function(a,b){});    // [undefined, undefined]
 ````
 
 If we try to see, the first will return a `Number` wrapper, which wont have a `.length` of its own, and hence an empty object will be created, however when we pass a function, every function has a `.length` which actually specified the number of parameter defined, so for the first example it was 0, hence an empty array was returned however in the second example the function accepts two parameter, hence the `.length` will be 2, and hence an array with length of 2 was created.
+
+****
+
+**Next Chapter : [Prototype methods](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Arrays/prototyope.md)**
