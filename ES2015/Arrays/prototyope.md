@@ -133,3 +133,7 @@ console.log(arrIteratorVal.next().value);	//  'b'
 console.log(arrIteratorKey.next().value);	//  0
 console.log(arrIteratorKey.next().value);	//  1
 ````
+
+****
+
+**Previous Chapter : [Static Methods to Create New Array](https://github.com/anirudh-modi/JS-essentials/blob/master/ES2015/Arrays/staticMethods.md)**
