@@ -1,4 +1,4 @@
-## Prototype methods
+# Prototype methods
 
 In ES6, a bunch of methods were introduced in `Array.Prototype` so that all the arrays can use the methods :
 
@@ -10,7 +10,7 @@ In ES6, a bunch of methods were introduced in `Array.Prototype` so that all the 
 6. `values`
 7. `keys`
 
-### `copyWithin` prototype method
+## `copyWithin` prototype method
 
 The `copyWithin` method is used to copy a part of an array, which then replaces the entire content of the same array. It accepts 3 parameters :
 
@@ -52,7 +52,7 @@ All the above index can also be negative.
 // Equivalent to : [0, 1, 2, 3, 4, 5].copyWithin(1, 3, 4);
 ````
 
-### `find` and `findIndex` prototype method
+## `find` and `findIndex` prototype method
 The `find` and `findIndex` method accepts a function as a callback function which is executed on every element present in the array. and an optional value to use as `this` inside the callback function. The callback function accepts three parameters :
 
 1. element - this signify the current element on which the function will be executed
@@ -84,7 +84,7 @@ One more issue with the `indexOf` method was that it was never able to find the 
 //0
 ````
 
-### `fill` prototype method
+## `fill` prototype method
 
 The fill method can be used to fill an existing array partially or completely, the `fill` method accepts three parameters :
 1. value, with which the array must be filled.
@@ -107,7 +107,7 @@ If start is negative, then length+start will be considered as start position, an
 [0, 1, 2, 3, 4].fill(5, 1, -1);		// [0, 5, 5, 5, 4]
 ````
 
-### `value`, `entries` and `keys` prototype methods
+## `value`, `entries` and `keys` prototype methods
 
 The `value` `entries` and `keys` method return an Array iterator, which can be used to iterate over any array using `next` on the array iterator.
 
