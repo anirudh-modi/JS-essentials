@@ -17,3 +17,4 @@
 * [Functional programming jargon](https://github.com/hemanth/functional-programming-jargon)
 * [Function light JS](https://github.com/getify/functional-light-js) in progress.. by [Kyle Simpson](https://github.com/getify)
 * [Demystifying JS engines](https://github.com/a0viedo/demystifying-js-engines)
+* [Computer science in Javascript](https://github.com/nzakas/computer-science-in-javascript) by [Nicholas C. Zakas](https://github.com/nzakas)
