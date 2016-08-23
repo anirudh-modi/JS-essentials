@@ -16,3 +16,4 @@
 * [Art of node](https://github.com/maxogden/art-of-node)
 * [Functional programming jargon](https://github.com/hemanth/functional-programming-jargon)
 * [Function light JS](https://github.com/getify/functional-light-js) in progress.. by [Kyle Simpson](https://github.com/getify)
+* [Demystifying JS engines](https://github.com/a0viedo/demystifying-js-engines)
