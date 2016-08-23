@@ -19,3 +19,4 @@
 
 ### Promises
 * [ES6 promises in depth](https://ponyfoo.com/articles/es6-promises-in-depth) by Nicolás Bevacqua
+* [Youre missing the point of promises](https://blog.domenic.me/youre-missing-the-point-of-promises/)
