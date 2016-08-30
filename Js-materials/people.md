@@ -23,3 +23,5 @@
 * Allen Wirfs-Brock - [Github](https://github.com/allenwb), [Github](https://twitter.com/awbjs)
 * John Resig - [Github](https://github.com/jeresig), [Twitter](https://twitter.com/jeresig)
 * David Walsh - [Github](https://github.com/darkwing), [Twitter](https://twitter.com/davidwalshblog)
+* James Kyle - [Github](https://github.com/thejameskyle), [Twitter](https://twitter.com/thejameskyle)
+* Ben Lesh - [Github](https://github.com/blesh), [Twitter](https://twitter.com/BenLesh)
