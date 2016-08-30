@@ -18,3 +18,4 @@
 * [Function light JS](https://github.com/getify/functional-light-js) in progress.. by [Kyle Simpson](https://github.com/getify)
 * [Demystifying JS engines](https://github.com/a0viedo/demystifying-js-engines)
 * [Computer science in Javascript](https://github.com/nzakas/computer-science-in-javascript) by [Nicholas C. Zakas](https://github.com/nzakas)
+* [Itsy bitsy data structures](https://github.com/thejameskyle/itsy-bitsy-data-structures) by [James Kyle](https://github.com/thejameskyle)
