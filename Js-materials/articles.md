@@ -16,6 +16,8 @@
 ### Functional programming
 * [Immutability is not enough](https://codewords.recurse.com/issues/six/immutability-is-not-enough)
 * [Marvellously mysterious javascript maybe monad](http://jrsinclair.com/articles/2016/marvellously-mysterious-javascript-maybe-monad/)
+* [So You Want to be a Functional Programmer (Part 1)](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-1-1f15e387e536#.4fgyzct5q)
+* [So You Want to be a Functional Programmer (Part 2](https://medium.com/@cscalfani/so-you-want-to-be-a-functional-programmer-part-2-7005682cec4a#.36yjp1i3k)
 
 ### Promises
 * [ES6 promises in depth](https://ponyfoo.com/articles/es6-promises-in-depth) by Nicolás Bevacqua
