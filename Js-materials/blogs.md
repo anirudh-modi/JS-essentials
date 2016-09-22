@@ -17,5 +17,6 @@
 * [BitNative](http://www.bitnative.com/) by Corey house
 * [Alex Sexton](https://alexsexton.com/)
 * [GitHub Engineering](http://githubengineering.com/)
+* [Stoyan's phpied.com](http://www.phpied.com/)
 
 
