@@ -2,6 +2,7 @@
 
 * [Speaking Js](http://speakingjs.com/es5/index.html)
 * [A re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+* [Object Oriented Javascript by Stoyan Stefanov](ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/[Packt]%20-%20Object-Oriented%20JavaScript%20-%20[Stefanov].pdf)
 * [Eloquent JavaScript](http://eloquentjavascript.net/)
 * [Exploring ES6](http://exploringjs.com/es6/)
 * [Exploring ES2016 and ES2017](https://leanpub.com/exploring-es2016-es2017/read)
