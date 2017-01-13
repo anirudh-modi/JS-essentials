@@ -8,6 +8,7 @@
 * [Javascript the core]( http://dmitrysoshnikov.com/ecmascript/javascript-the-core/)
 * [Why Prototypal Inheritance Matters](http://aaditmshah.github.io/why-prototypal-inheritance-matters/)
 * [You don't need jquery - Ajax Requests](http://blog.garstasio.com/you-dont-need-jquery/ajax/)
+* [Javascript - the core](http://dmitrysoshnikov.com/ecmascript/javascript-the-core/)
  
 ### ES.Next (ES6 & Beyond)
 
