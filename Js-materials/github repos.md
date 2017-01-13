@@ -20,3 +20,4 @@
 * [Computer science in Javascript](https://github.com/nzakas/computer-science-in-javascript) by [Nicholas C. Zakas](https://github.com/nzakas)
 * [Itsy bitsy data structures](https://github.com/thejameskyle/itsy-bitsy-data-structures) by [James Kyle](https://github.com/thejameskyle)
 * [ES6 cheatsheet](https://github.com/DrkSephy/es6-cheatsheet)
+* [V8 wiki](https://github.com/v8/v8/wiki)
