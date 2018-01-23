@@ -162,7 +162,7 @@ var a = 'global';
 foo();
 ````
 
-The reason why above gave a console of `global`, is because we mentioned earlier that `this` context for a function, is not decided by where it is declared, but, on how and where it is called! Here, the `foo` was called from global context, and during its execution, `this` will be binded to the `global object` [`Default binding rule`], and since, regular functions and global object can only have `this` context, `this` context at the time of execution was pointing to the variable `a` declared in global scope, and hence the value was `a` was `global` and not `func`.
+The reason why above gave a console of `global`, is because we mentioned earlier that `this` context for a function, is not decided by where it is declared, but by how and where it is called! Here, `foo` was called from the `global` context, and during its execution, `this` will be binded to the `global object` [`Default binding rule`], and since, regular functions and global object can only have `this` context, `this` context at the time of execution was pointing to the variable `a` declared in global scope, and hence the value was `a` was `global` and not `func`.
 
 The above issue, could be solved using the `call` method on the `foo` function, where, we hard bind `this` of the function `foo` to the function itself, and not the `global scope`. Let's see how this can be done.
 
@@ -232,7 +232,7 @@ foo.call(foo);
 
 You must be wondering how did the above code worked, and we didn't even hard binded `this`  for the arrow function to `this` of `foo` function!!!! 👺
 
-Well *this* is because the arrow functions does not have their own `this`, so how come did it printed `func` 😱, *this* is because of the fact that, for arrow functions `this` is used using lexical scope lookup, which means that, when a reference to `this` is made within any arrow function, the engine, will start looking up the scope of arrow function to find a `this` binding, default being the `global scope` `this`, so, when the above code is executed, during the callback, the engine, will first look for `this` within the scope of arrow function, which it fails to find, then it traverses up the scope of the arrow function, which is the scope of the function `foo`, and since it finds a `this` in the scope of the `foo`, that same `this` is used as future reference within the arrow function, and since `this` of `foo` is hard binded to itself, we get the value of `this.a` as `func`.
+Well *this* is because the arrow functions do not have their own `this`, so how come it printed `func` 😱, *this* is because of the fact that, for arrow functions `this` is used using lexical scope lookup, which means that, when a reference to `this` is made within any arrow function, the engine, will start looking up the scope of arrow function to find a `this` binding, default being the `global scope` `this`, so, when the above code is executed, during the callback, the engine, will first look for `this` within the scope of arrow function, which it fails to find, then it traverses up the scope of the arrow function, which is the scope of the function `foo`, and since it finds a `this` in the scope of the `foo`, that same `this` is used as future reference within the arrow function, and since `this` of `foo` is hard binded to itself, we get the value of `this.a` as `func`.
 
 Let's modify the above example a little to make you understand, the `this` for arrow functions.
 
@@ -252,11 +252,11 @@ foo();
 
 If you guessed that the value of `this.a` will be `global`, then you have started to understand the `this`!!! Hooray!!! 🎉🎊.
 
-However, if you guessed `func` 😔, then don't worry, their is a reason why I am here to explain 😃.
+However, if you guessed `func` 😔, then don't worry, this is why I am here to explain 😃.
 
-Let's rewind a little to the very first example of this section, can you recall anything???? Yes!! The reason why it console `global` was because, `foo` was called in global context, `this` of the `foo` function is binded to the `global object`, which means when the engine will encounter `this` for arrow function it will start looking up the scope, it will refer to the `this` of `foo` which is not itself but to the `global object`!!!! 😃
+Let's rewind a little to the very first example of this section, can you recall anything???? Yes!! The reason why it console.logged `global` was because, `foo` was called in the `global` context, `this` of the `foo` function is binded to the `global object`, which means when the engine encounters `this` for arrow functions, it will start looking up the scope, and then it will refer to the `this` of `foo` which is not itself but to the `global object`!!!! 😃
 
-Let's walk you through another example, which will surely clear up the air around the `this` for arrow function.
+Let's walk through another example, which will surely clear up the `this` for arrow function.
 
 ````javascript
 var obj = {
@@ -269,7 +269,7 @@ var a = 'global!!!';
 obj.foo();              // global!!!
 ````
 
-What the hell, just happened!! How come `global!!!` was printed, JS must have gone crazy!!😡 Why can't the JS just print the damn `object???`, It must be driving you crazy!! Well, let's make it clear..one thing is for certain, JS is not crazy, and I won't let you crazy! 😃
+What the hell just happened!! How come `global!!!` was printed? JS must have gone crazy!!😡 Why can't the JS just print the damn `object???`, It must be driving you crazy!! Well, let's make it clear: one thing is for certain, JS is not crazy, and I won't let you go crazy! 😃
 
 Again, let's rewind! Recall the sentence said at the very beginning of this section.
 
@@ -318,7 +318,7 @@ var a = 'global!!!';
 obj.foo.call(obj2);              // ugh!!object2!!
 ````
 
-How did this printed `ugh!!object2!!`😨 , *this* is  because `this` of the `foo` function is now hard binded to the `obj2` when we used the `call`, because of which when `this` of arrow function points to the variable `a` of `obj2`.
+How did this printed `ugh!!object2!!`😨 , *this* is  because `this` of the `foo` function is now hard binded to the `obj2` when we used the `call`. That is why `this.a` of arrow function points to `obj2.a`.
 
 Consider the code snippet below, just to be sure, no smelly air is around the `this` of arrow functions!!!
 
@@ -343,7 +343,7 @@ So, Ask yourself two questions!! What should be the output???? And how many `thi
 
 The output will be `func`, and there is only one `this` which is the `this` of the function `foo` which is binded to itself, and for every arrow function, whenever a `this` is referred, it will look up the scope and it will finally land into `this` of function `foo`.
 
-##### Does `call`, `apply` and `bind` effect arrow function's this?
+##### Does `call`, `apply` and `bind` effect arrow function's `this`?
 
 Well *this* is kind of a useless question, because all the three methods hard binds `this` value of a function to the context specified as the parameter to those method, but, arrow functions does not have their own `this`, so what will these methods bind the context to????
 Nothing!! 😛, which means calling arrow functions using `call` ,`apply` or `bind` can produce no effect. Let's look at the previous example, on how indifferent it could be.
